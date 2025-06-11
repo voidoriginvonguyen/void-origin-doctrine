@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Void Origin Doctrine | ⸢Nuyxaen⸥</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #0f0f0f;
+      color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem;
+    }
+    nav button {
+      padding: 0.5rem 1rem;
+      margin: 0.2rem;
+      background-color: #333;
+      color: #f0f0f0;
+      border: none;
+      cursor: pointer;
+    }
+    nav button:hover {
+      background-color: #555;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .vi { display: none; }
+    h2 { color: #00ccff; }
+    a { color: #66ccff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #1e1e1e;
+      padding: 1rem;
+      border-left: 4px solid #00ccff;
+    }
+  </style>
+  <script>
+    function toggleLang(lang) {
+      document.querySelectorAll('.en').forEach(e => e.style.display = lang === 'en' ? 'block' : 'none');
+      document.querySelectorAll('.vi').forEach(e => e.style.display = lang === 'vi' ? 'block' : 'none');
+    }
+    window.onload = () => toggleLang('en');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>📘 Void Origin Doctrine</h1>
+    <p><em>Founded by ⸢Nuyxaen⸥ | Học thuyết bởi ⸢Nuyxaen⸥</em></p>
+  </header>
+
+  <nav>
+    <button onclick="toggleLang('en')">🇺🇸 English</button>
+    <button onclick="toggleLang('vi')">🇻🇳 Tiếng Việt</button>
+  </nav>
+
+  <section>
+    <div class="en">
+      <h2>Full Doctrine (English)</h2>
+      <pre>
+[Paste the full English version of the Void Origin Doctrine here.]
+      </pre>
+    </div>
+
+    <div class="vi">
+      <h2>Toàn văn Học thuyết Vô Nguyên (Tiếng Việt)</h2>
+      <pre>
+[Dán toàn bộ bản tiếng Việt của Học thuyết Vô Nguyên vào đây.]
+      </pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>📥 Sources | Nguồn học thuyết</h2>
+    <p>
+      🔗 <a href="https://github.com/voidoriginvonguyen/void-origin-doctrine" target="_blank">GitHub: void-origin-doctrine</a><br>
+      🔗 <a href="https://doi.org/10.5281/zenodo.15633867" target="_blank">Zenodo (DOI): 10.5281/zenodo.15633867</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 ⸢Nuyxaen⸥ — All rights reserved | Mọi quyền được bảo lưu<br>
+    Licensed under CC BY-NC-ND 4.0 | Theo giấy phép CC BY-NC-ND 4.0
+  </footer>
+</body>
+</html>
